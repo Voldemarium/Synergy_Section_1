@@ -1,9 +1,9 @@
-package lesson_5;
+package lesson_6;
 
 import java.io.*;
 import java.net.URL;
 
-public class Lesson_5 {
+public class Lesson_6 {
     public static void main(String[] args) {
 //        Получение данных c ЦБ РФ, используя XML (динамики котировок доллара США:)
         String url1 ="https://www.cbr.ru/scripts/XML_dynamic.asp" +
