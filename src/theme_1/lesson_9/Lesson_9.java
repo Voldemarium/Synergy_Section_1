@@ -77,7 +77,7 @@ public class Lesson_9 {
         System.out.println(url);
 //  Скачаем картинку по ссылке:
         try (InputStream in = new URL(url).openStream()) {
-            Path picturePath = Paths.get("./src/theme_1.txt/lesson_9/picture.jpg");
+            Path picturePath = Paths.get("./src/theme_1/lesson_9/picture.jpg");
             if (Files.exists(picturePath)) {
                 Files.delete(picturePath);
             }

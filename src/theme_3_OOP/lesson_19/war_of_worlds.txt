@@ -1,0 +1,44 @@
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track",
+ "kind":"feature-movie",
+  "collectionId":1489507790,
+   "trackId":689067474,
+    "artistName":"Marc Forster",
+     "collectionName":"Brad Pitt 4 Film Collection",
+      "trackName":"World War Z (Unrated Cut)",
+       "collectionCensoredName":"Brad Pitt 4 Film Collection",
+        "trackCensoredName":"World War Z (Unrated Cut)",
+         "collectionArtistId":1008915738,
+          "collectionArtistViewUrl":"https://itunes.apple.com/us/artist/paramount-home-entertainment-inc/1008915738?uo=4",
+           "collectionViewUrl":"https://itunes.apple.com/us/movie/world-war-z-unrated-cut/id689067474?uo=4",
+            "trackViewUrl":"https://itunes.apple.com/us/movie/world-war-z-unrated-cut/id689067474?uo=4",
+"previewUrl":"https://video-ssl.itunes.apple.com/itunes-assets/Video117/v4/e7/be/ba/e7beba71-b0db-9a68-3016-8fc3a50b5eeb/mzvf_7817470327798948162.640x354.h264lc.U.p.m4v",
+ "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Video20/v4/ed/20/b8/ed20b84d-e643-c2c8-f582-5c7ef9ca03be/pr_source.lsr/30x30bb.jpg",
+  "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Video20/v4/ed/20/b8/ed20b84d-e643-c2c8-f582-5c7ef9ca03be/pr_source.lsr/60x60bb.jpg",
+   "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Video20/v4/ed/20/b8/ed20b84d-e643-c2c8-f582-5c7ef9ca03be/pr_source.lsr/100x100bb.jpg",
+    "collectionPrice":4.99,
+     "trackPrice":4.99,
+      "trackRentalPrice":3.99,
+       "collectionHdPrice":4.99,
+        "trackHdPrice":4.99,
+         "trackHdRentalPrice":3.99,
+          "releaseDate":"2013-06-21T07:00:00Z",
+           "collectionExplicitness":"notExplicit",
+            "trackExplicitness":"notExplicit",
+             "discCount":1,
+              "discNumber":1,
+               "trackCount":4,
+                "trackNumber":4,
+                 "trackTimeMillis":7412660,
+                  "country":"USA",
+                   "currency":"USD",
+                    "primaryGenreName":"Horror",
+                     "contentAdvisoryRating":"PG-13",
+"longDescription":"The suspense is killer in this fast-paced, pulse-pounding epic of the potential last days of the
+human race. Former United Nations employee Gerry Lane (Brad Pitt) is called upon to help stop the chaotic pandemic
+ that has gripped populations around the world. Lane fights to keep his family safe, while searching for an answer
+  to the outbreak before it destroys all of civilization. World War Z is the most gratifying action spectacle in
+   years!", "hasITunesExtras":true}]
+}

@@ -50,7 +50,7 @@ public class Lesson_12 {
         }
 
         //  ------------------------------------------------------------------------------------
-//    /  API NASA
+//      API NASA
         for (int day = 1; day <= 30; day++) {
             String dayStr = day < 10 ? "0" + day : String.valueOf(day);
             String page = downloadWebPage("https://api.nasa.gov/planetary/apod" +

@@ -21,29 +21,29 @@ public class Lesson_13 {
             System.out.println();
         }
 //------------------------------------------------------------------
-
-//        int month = 1;
-//        do {
-//            int day = 1;
-//            do {
-//                String dayStr = day < 10 ? "0" + day : String.valueOf(day);
-//                String monthStr = month < 10 ? "0" + month : String.valueOf(month);
-//                String url = "https://www.cbr.ru/scripts/XML_dynamic.asp" +
-//                        "?date_req1=" + dayStr + "/" + monthStr + "/2014" +
-//                        "&date_req2=" + dayStr + "/" + monthStr + "/2014&VAL_NM_RQ=R01235";
-//                String pageXML1 = downloadWebPage(url);
-//                // Последняя котировка на странице;
-//                int startIndex1 = pageXML1.lastIndexOf("<Value>");
-//                if (startIndex1 != -1) { //if not exists  "<Value>"
-//                    int endIndex1 = pageXML1.lastIndexOf("</Value>");
-//                    String courseStr1 = pageXML1.substring(startIndex1 + 7, endIndex1);
-//                    double course1 = Double.parseDouble(courseStr1.replace(',', '.'));
-//                    System.out.println(dayStr + "/" + monthStr + "/2014: " + course1);
-//                }
-//                day++;
-//            } while (day <= 31);
-//            month++;
-//        } while (month <= 12);
+//  Вывод курса доллара ЦБ по всем дням за весь 2014год
+        int month = 1;
+        do {
+            int day = 1;
+            do {
+                String dayStr = day < 10 ? "0" + day : String.valueOf(day);
+                String monthStr = month < 10 ? "0" + month : String.valueOf(month);
+                String url = "https://www.cbr.ru/scripts/XML_dynamic.asp" +
+                        "?date_req1=" + dayStr + "/" + monthStr + "/2014" +
+                        "&date_req2=" + dayStr + "/" + monthStr + "/2014&VAL_NM_RQ=R01235";
+                String pageXML1 = downloadWebPage(url);
+                // Последняя котировка на странице;
+                int startIndex1 = pageXML1.lastIndexOf("<Value>");
+                if (startIndex1 != -1) { //if not exists  "<Value>"
+                    int endIndex1 = pageXML1.lastIndexOf("</Value>");
+                    String courseStr1 = pageXML1.substring(startIndex1 + 7, endIndex1);
+                    double course1 = Double.parseDouble(courseStr1.replace(',', '.'));
+                    System.out.println(dayStr + "/" + monthStr + "/2014: " + course1);
+                }
+                day++;
+            } while (day <= 31);
+            month++;
+        } while (month <= 12);
 //------------------------------------------------------------------
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter expression: ");
