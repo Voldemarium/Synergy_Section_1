@@ -6,8 +6,7 @@ import java.net.URL;
 public class Lesson_6 {
     public static void main(String[] args) {
 //        Получение данных c ЦБ РФ, используя XML (динамики котировок доллара США:)
-        String url1 = "https://www.cbr.ru/scripts/XML_dynamic.asp" +
-                "?date_req1=28/09/2023&date_req2=29/09/2023&VAL_NM_RQ=R01235";
+        String url1 = "https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=28/09/2023&date_req2=29/09/2023&VAL_NM_RQ=R01235";
         String pageXML1 = downloadWebPage(url1);
         // Последняя котировка на странице 1;
         int startIndex1 = pageXML1.lastIndexOf("<Value>") + 7;
