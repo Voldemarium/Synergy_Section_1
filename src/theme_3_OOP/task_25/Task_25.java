@@ -76,9 +76,9 @@ public class Task_25 {
         printArrayOfChars(englishAlphabet);
 
 //  9.Предыдущее задание, но с русским алфавитом.
-        char[][] russishAlphabet = new char[4][8];
-        getFillingArrayOfChars(russishAlphabet, 'А', 'Я');
-        printArrayOfChars(russishAlphabet);
+        char[][] russianAlphabet = new char[4][8];
+        getFillingArrayOfChars(russianAlphabet, 'А', 'Я');
+        printArrayOfChars(russianAlphabet);
 
     }
 

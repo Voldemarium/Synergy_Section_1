@@ -99,7 +99,7 @@ public class Lesson_31 {
 //                            currentDate1.getYear();
             String url = "https://www.cbr.ru/scripts/XML_dynamic.asp" +
                     "?date_req1=" + dateForUrl + "&date_req2=" + dateForUrl + "&VAL_NM_RQ=R01235";
-            String page = null;
+            String page = "";
             try {
                 page = downloadPage.downloadWebPage(url);
             } catch (IOException e) {

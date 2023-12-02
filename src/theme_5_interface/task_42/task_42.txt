@@ -1,0 +1,20 @@
+Урок 4. default-методы в интерфейсах
+1. Зачем могут пригодиться default-методы в интерфейсах?
+2. Сделайте интерфейс, default-метод которого будет принимать категорию (String
+cat) - который будет запрашивать новости по апи, пример
+https://inshortsapi.vercel.app/news?category=science (смотреть в браузере)
+3. Список категорий: all
+national //Indian News only
+business
+sports
+world
+politics
+technology
+startup
+entertainment
+miscellaneous
+hatke
+science
+automobile
+Реализуйте для некоторых категорий этот интерфейс, который вызывает default-метод, и
+передает туда соответствующую категорию

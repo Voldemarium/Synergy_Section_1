@@ -14,21 +14,11 @@ import java.nio.file.Paths;
 public class ITunesMoviePlayer {
     DownloadPage downloadPage = new DownloadPage();
 
-//    ITunesMovie getMovie(String searchRequest) {
-//        String url = buildUrl(searchRequest);
-//        String page = downloadPage.downloadWebPage(url);
-//        String movieName = getTag(page, "trackName");
-//        String previewUrl = getTag(page, "previewUrl");
-//        ITunesMovie movie = new ITunesMovie();
-//        movie.trackName = movieName;
-//
-//    }
-
-
     void playMovie(String searchRequest) throws IOException {
         String url = buildUrl(searchRequest);
 
         String page = downloadPage.downloadWebPage(url);
+        System.out.println(page);
 
         String movieName = getTag(page, "trackName");
         String previewUrl = getTag(page, "previewUrl");
@@ -36,7 +26,7 @@ public class ITunesMoviePlayer {
 
         //  Скачаем файл по ссылке:
         try (InputStream in = new URL(previewUrl).openStream()) {
-            Path audioPath = Paths.get("./src/theme_4_inheritance/lesson_28/files/" + movieName + fileExtension);
+            Path audioPath = Paths.get("./src/theme_4_inheritance/lesson_30/files/" + movieName + fileExtension);
             if (Files.exists(audioPath)) {
                 Files.delete(audioPath);
             }
@@ -50,11 +40,10 @@ public class ITunesMoviePlayer {
             System.out.println("Desktop not supported!");
         } else {
             Desktop desktop = Desktop.getDesktop();
-            File file = new File("./src/theme_4_inheritance/lesson_28/files/" + movieName + fileExtension);
+            File file = new File("./src/theme_4_inheritance/lesson_30/files/" + movieName + fileExtension);
             desktop.open(file);
         }
     }
-
 
     private static String getTag(String page, String tagName) {
         int start = page.indexOf(tagName) + tagName.length() + 3;

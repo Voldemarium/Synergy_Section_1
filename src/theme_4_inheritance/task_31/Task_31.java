@@ -87,7 +87,7 @@ public class Task_31 {
         ZonedDateTime arrivalTime = flightCalculator.getArrivalTime();
         System.out.println("arrival time: " + arrivalTime.format(formatter));
 
-//  6.Реализуйте класс DatePeriod, в котором будет две LocalDate. Переделайте анализатор курса валют, что б он на вход
+//  6. Реализуйте класс DatePeriod, в котором будет две LocalDate. Переделайте анализатор курса валют, что б он на вход
    // принимал DatePeriod
         DatePeriod datePeriod = new DatePeriod(
                 LocalDate.of(2023, 11, 1),
